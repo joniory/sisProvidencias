@@ -22,3 +22,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+//SEGURIDADES
+Route::get('/Seguridades/seguridades', 'Seguridades\seguridadesController@index')->name('seguridades');
+Route::get('/Seguridades/usuarios', 'Seguridades\usuariosController@index')->name('usuarios');
