@@ -15,8 +15,8 @@
                     @endif
 
                     <a href="{{ url('/Seguridades/seguridades') }}" type="button" class="btn btn-default" >SEGURIDADES</a>
-                    <a href="{{ url('/parametros') }}" type="button" class="btn btn-default">PARAMETROS</a> 
-                    <a href="{{ url('/providencias') }}" type="button" class="btn btn-default">PROVIDENIAS</a>
+                    <a href="{{ url('/parametros') }}" type="button" class="btn btn-default">PARAMETROS</a>
+                    <a href="{{ url('/providencias') }}" type="button" class="btn btn-default">PROVIDENCIAS</a>
                 </div>
             </div>
         </div>
